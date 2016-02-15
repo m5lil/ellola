@@ -1,0 +1,35 @@
+body {
+  width: 1170px;
+  margin: auto; }
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .container logo {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; }
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto; }
+    .container:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+
+h1 {
+  color: #ddd;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 6.77966%;
+  text-align: center;
+  margin: 22px;
+  transition: all 0.8s linear; }

@@ -1,0 +1,46 @@
+{
+  "name": "gulp-jade-sass",
+  "version": "1.0.0",
+  "description": "Starter Kit with gulp plugins",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codzin/gulp-jade-sass.git"
+  },
+  "keywords": [
+    "gulp",
+    "scss",
+    "susy",
+    "jade"
+  ],
+  "author": "Mahmoud Khalil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codzin/gulp-jade-sass/issues"
+  },
+  "homepage": "https://github.com/codzin/gulp-jade-sass#readme"
+}

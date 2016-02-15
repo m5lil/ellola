@@ -6,6 +6,8 @@
 #### Features :
 
 * Gulp
+* Bourbon
+* Surge
 * Jade
 * Sass
 * Browser-Sync
@@ -25,6 +27,14 @@
  3. Install Dependencies — Open a command prompt/terminal and navigate to your theme's root directory and run this command: `npm install` - This installs all the necessary Gulp plugins to help with task automation such as Sass compiling and browser-sync! You'll need to run this step on each of your projects, going forward.
  4. To start working Just Run ` gulp ` and  have fun :+1:
  5. Run `gulp images` to optimize images and only place the images in `images/` folder, they'll moved to `build/images/` once optimized
+
+#### For using Surge:
+
+* Run ` npm install --global surge `
+* Run  `cd build` then `surge`
+* Edit CNAME file with custom SubDomain.
+![surge how](https://surge.sh/images/help/getting-started-with-surge.gif)
+
 
 ---
 

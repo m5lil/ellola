@@ -1,0 +1,32 @@
+{
+  "name": "gulp-jade-sass",
+  "description": "Starter Kit with gulp plugins",
+  "main": "gulpfile.js",
+  "authors": [
+    "Mahmoud Khalil"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "scss",
+    "susy",
+    "jade"
+  ],
+  "homepage": "https://github.com/codzin/ellola",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "compass-breakpoint": "breakpoint-sass#^2.6.1",
+    "bourbon": "^4.2.6",
+    "font-awesome": "fontawesome#^4.5.0",
+    "susy": "^2.2.12"
+  }
+}

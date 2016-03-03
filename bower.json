@@ -1,5 +1,5 @@
 {
-  "name": "gulp-jade-sass",
+  "name": "ellola",
   "description": "Starter Kit with gulp plugins",
   "main": "gulpfile.js",
   "authors": [
@@ -27,6 +27,9 @@
     "compass-breakpoint": "breakpoint-sass#^2.6.1",
     "bourbon": "^4.2.6",
     "font-awesome": "fontawesome#^4.5.0",
-    "susy": "^2.2.12"
+    "susy": "^2.2.12",
+    "Ionicons": "ionicons#^2.0.1",
+    "neutroncss": "^0.9.2"
+
   }
 }

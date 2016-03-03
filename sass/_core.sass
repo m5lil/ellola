@@ -1,0 +1,28 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon"
+// @import "../bower_components/susy/sass/susy"
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint"
+@import "../bower_components/neutroncss/neutron"
+
+
+@include font-face("kufi", "../fonts/DroidKufi-Regular")
+@include font-face("kufi", "../fonts/DroidKufi-Bold", bold)
+@include font-face("naskh", "../fonts/DroidNaskh-Regular")
+@include font-face("naskh", "../fonts/DroidNaskh-Bold", bold)
+
+// @include border-box-sizing
+
+// $susy: (flow: rtl, container: 90%, columns: 12, global-box-sizing: border-box)
+
+// $breakpoints: ('xsmall'  : 0 767px, 'small' : 767px, 'medium' : 992px, 'large'  : 1200px, 'retina' : min-resolution 1.5dbbx)
+
+$gray-base:              #000
+$gray-darker:            lighten($gray-base, 13.5%)
+$gray-dark:              lighten($gray-base, 20%)
+$gray:                   lighten($gray-base, 33.5%)
+$gray-light:             lighten($gray-base, 46.7%)
+$gray-lighter:           lighten($gray-base, 93.5%)
+
+$primary-color:          darken(#00a99d, 6.5%)
+
+$ff-sans:         "kufi"
+$ff-serif:        "naskh"

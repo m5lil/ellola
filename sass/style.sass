@@ -1,66 +1,25 @@
-@import "../bower_components/bourbon/app/assets/stylesheets/bourbon"
-@import "../bower_components/susy/sass/susy"
-@import "../bower_components/compass-breakpoint/stylesheets/breakpoint"
-
-
-
-
-// $susy: (
-//   flow: ltr,
-//   math: fluid,
-//   output: float,
-//   gutter-position: after,
-//   container: auto,
-//   container-position: center,
-//   columns: 4,
-//   gutters: .25,
-//   column-width: false,
-//   global-box-sizing: content-box,
-//   last-flow: to,
-//   debug: (
-//     image: hide,
-//     color: rgba(#66f, .25),
-//     output: background,
-//     toggle: top right,
-//   ),
-//   use-custom: (
-//     background-image: true,
-//     background-options: false,
-//     box-sizing: true,
-//     clearfix: false,
-//     rem: true,
-//   )
-// );
-
-// Shorthand for susy because i think no compass installed
-$susy: (flow: ltr, container: 1170px, columns: 12)
+@import "core"
+@import "general"
 
 
 body
-  width: 1170px
-  margin: auto
-
+  direction: rtl
+  font-family: $ff-sans
+  background:
+    color: $gray-lighter
+    image: url(../images/cubes.png)
+  @include breakpoint(mobile)
+    background: #ff0
 
 .container
-  @include container
-  @include show-grid(overlay)
-
-  logo
-    @include span(7)
-
-
-
-@include breakpoint(500px)
-  .container
-    @include container(500px)
-
-
-h1
-  color: #ddd
-  font:
-    size: 15px
-    family: Arial
-    weight: span(1 of 12)
-  text-align: center
-  margin: 22px
-  @include transition(all 0.8s linear)
+  @include container-width(90%)
+  // @include breakpoint(xsmall)
+  //   @include container-width(500px)
+  @include breakpoint(from-tablet)
+    @include container-width(750px)
+  @include breakpoint(from-desktop-mid)
+    @include container-width(960px)
+  @include breakpoint(from-desktop-lrg)
+    @include container-width(1170px)
+  margin-left: auto
+  margin-right: auto
